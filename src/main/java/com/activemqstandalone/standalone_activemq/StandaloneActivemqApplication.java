@@ -1,0 +1,13 @@
+package com.activemqstandalone.standalone_activemq;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class StandaloneActivemqApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(StandaloneActivemqApplication.class, args);
+    }
+
+}

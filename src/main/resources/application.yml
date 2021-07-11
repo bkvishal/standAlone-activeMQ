@@ -1,0 +1,9 @@
+spring:
+  activemq:
+    in-memory: false
+    pool:
+      enabled: false
+
+# this is the url of activeMQ server
+activemq:
+  broker-url: tcp://localhost:61616
